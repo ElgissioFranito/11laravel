@@ -5,15 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Tongasoa</title>
+    <title>momba2 anay</title>
 
 
 
 </head>
 
 <body>
-    <h1> Salama avy aty Madagascar</h1>
-    <p>amin'ny {{ date('h:i A') }} ny fotoana aty aminay</p>
+
+    <p>salama o, ity dia application namboarina taminy Laravel &hearts; izay maneho ni fotoana am firenena misy anao
+    </p>
+
+    <p> <a href="/">
+            hiverina aminy voalohany
+        </a>
+    </p>
 
     <footer>
         copyright : mistera.randriamanarina {{ date('Y') }} &middot; <a href="/aboutUs"> Mombamomba anay</a>
