@@ -16,7 +16,7 @@
     <p>amin'ny {{ date('h:i A') }} ny fotoana aty aminay</p>
 
     <footer>
-        copyright : mistera.randriamanarina {{ date('Y') }} &middot; <a href="/aboutUs"> Mombamomba anay</a>
+        copyright : mistera.randriamanarina {{ date('Y') }}
     </footer>
 </body>
 

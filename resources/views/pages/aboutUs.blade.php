@@ -22,7 +22,8 @@
     </p>
 
     <footer>
-        copyright : mistera.randriamanarina {{ date('Y') }} &middot; <a href="/aboutUs"> Mombamomba anay</a>
+        copyright : mistera.randriamanarina {{ date('Y') }} &middot;
+        <a href="/aboutUs"> Mombamomba anay</a>
     </footer>
 </body>
 
