@@ -1,7 +1,7 @@
 @extends('app')
 
 
-@section('title', 'Accueil | laravel')
+@section('title', 'Accueil | ' . config('app.name'))
 
 
 @section('content')

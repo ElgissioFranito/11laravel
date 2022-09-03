@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-        @yield('title', 'Hello City')
+        @yield('title', config('app.name'))
+        {{-- valeur par defaut = l'APP_NAME dans .env --}}
     </title>
 
 </head>
