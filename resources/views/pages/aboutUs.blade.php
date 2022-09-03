@@ -4,9 +4,11 @@
 
 @section('content')
 
-    <img src="/images/logo.png" alt="logo Mistera" width="300px">
+    <img src="{{ asset('/images/logo.png') }}" alt="logo Mistera" width="300px">
 
-    <p>salama o, ity dia application namboarina taminy Laravel &hearts; izay maneho ni fotoana am firenena misy anao
+    <p>salama o,
+    <p> MISTERA</p> no nanao ity application ity, izay namboarina taminy Laravel &hearts;
+    <p>izy ity dia maneho ni fotoana am firenena misy anao</p>
     </p>
 
     <p> <a href="{{ route('app-home') }}">
