@@ -19,7 +19,10 @@
 
     <footer>
         &copy; copyright : mistera.randriamanarina {{ date('Y') }}
-        <a href="{{ route('app-about') }}"> Mombamomba anay</a>
+        @if (!Route::is('app-about'))
+            <a href="{{ route('app-about') }}"> Mombamomba anay</a>
+        @endif
+
     </footer>
 </body>
 
